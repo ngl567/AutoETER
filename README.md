@@ -8,3 +8,21 @@ Author: Dr. Guanglin Niu (beihangngl at buaa.edu.cn)
 
 ## Introduction
 To explore the type information for any KG, we develop a novel KGE framework with ***Auto***mated ***E***ntity ***T***yp***E*** ***R***epresentation (AutoETER), which learns the latent type embedding of each entity by regarding each relation as a translation operation between the types of two entities with a relation-aware attention mechanism. Particularly, our approach could model and infer all the relation patterns and complex relations. 
+
+## Dataset
+We provide four datasets: FB15K, FB15K237, WN18 and YAGO3-10. You can find and download all the datasets on [Onedrive](https://1drv.ms/u/s!AjhjEjaTE0SbbceogcmdwSu9ME?e=zfw6sN).
+
+## Example to Run the codes
+    python codes/run.py --cuda --do_train --do_valid --do_test --data_path/FB15k --model AutoETER -n 128 -b 1024 -d 1000  -td 200 -g 22.0 -gt 7.0 -gp 5.0 -al1 0.1 -al2 0.5 -a 1.0 -lr 0.0001 --max_steps 150000 -save models/AutoETER_fb15k_1 -ps 16
+    
+## Acknowledge
+    @inproceedings{Niu:AutoETER,
+      author    = {Guanglin Niu and
+                   Bo Li and
+                   Yongfei Zhang and
+                   Shiliang Pu and
+                   Jingyang Li},
+      title     = {AutoETER: Automated Entity Type Representation with Relation-Aware Attention for Knowledge Graph Embedding},
+      booktitle = {Findings of EMNLP 2020},
+      year      = {2020}
+    }
