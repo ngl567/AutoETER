@@ -1,8 +1,8 @@
 # AutoETER
-EMNLP 2020 Findings: AutoETER: Automated Entity Type Representation with Relation-Aware Attention for Knowledge Graph Embedding [Paper](https://www.aclweb.org/anthology/2020.findings-emnlp.105.pdf).
+EMNLP 2020 Findings: AutoETER: Automated Entity Type Representation for Knowledge Graph Embedding [Paper](https://www.aclweb.org/anthology/2020.findings-emnlp.105.pdf).
 
 This is our source code and data for the paper:
->***Guanglin Niu***, Bo Li, Yongfei Zhang, Shiliang Pu and Jingyang Li. AutoETER: Automated Entity Type Representation with Relation-Aware Attention for Knowledge Graph Embedding. EMNLP 2020 Findings, 2020, 1172–1181.
+>***Guanglin Niu***, Bo Li, Yongfei Zhang, Shiliang Pu and Jingyang Li. AutoETER: Automated Entity Type Representation for Knowledge Graph Embedding. EMNLP 2020 Findings, 2020, 1172–1181.
 
 Author: Dr. Guanglin Niu (beihangngl at buaa.edu.cn)
 
@@ -23,7 +23,7 @@ We provide four datasets: FB15K, FB15K237, WN18 and YAGO3-10. You can find and d
                    Yongfei Zhang and
                    Shiliang Pu and
                    Jingyang Li},
-      title     = {AutoETER: Automated Entity Type Representation with Relation-Aware Attention for Knowledge Graph Embedding},
-      booktitle = {Findings of EMNLP 2020},
+      title     = {AutoETER: Automated Entity Type Representation for Knowledge Graph Embedding},
+      booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: Findings},
       year      = {2020}
     }
